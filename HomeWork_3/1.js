@@ -8,9 +8,9 @@
 */
 
 
-function square(num) {
-	return num ** 2;
+function cube(num) {
+	return num ** 3;
 }
 
-const result = square(5);
-console.log(`Квадрат числа 5 равен ${result}`);
+const result = cube(5);
+console.log(`5 в кубе равна ${result}`);
